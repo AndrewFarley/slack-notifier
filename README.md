@@ -11,6 +11,7 @@ A simple but robust CLI-based slack notifier written in PHP.  This library handl
   * Log Level
   * Emoji
   * Icon
+* Example code and functions to include and call directly from PHP or from Bash
 
 # Configuration / Setup
 Note: apt-get examples below are for Ubuntu, adjust accordingly for your distribution
@@ -117,3 +118,4 @@ notify_via_slack("There was a possible problem with this script", "warning", "my
 ```
 ![Alt text](/resources/example3.png?raw=true "Example 3")
 
+# Please feel free to add examples, documentation, features, etc.  Fork me and send a pull request.
