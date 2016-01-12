@@ -37,6 +37,8 @@ Task State: Complete"
 echo "Sending Slack Notification"
 ./send_notification_via_slack.sh -s info -u "Custom Slack Notifier - Update Notification" "$SLACKSTRING"
 ```
+![Alt text](/resources/example2.png?raw=true "Example 2")
+
 
 # PHP-based example (see example.php)
 ```
@@ -48,3 +50,5 @@ sleep(1);
 echo "This is to a private channel named 'my-private-channel'";
 notify_via_slack("There was a possible problem with this script", "warning", "my-private-channel");
 ```
+![Alt text](/resources/example3.png?raw=true "Example 3")
+
