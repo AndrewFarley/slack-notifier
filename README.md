@@ -25,7 +25,7 @@ CLI-Based Examples:
 ```
 ./send_notification_via_slack.sh --username Notify-When-Task-Complete\ -\ `hostname` --severity ok --iconurl "https://cdn.tutsplus.com/vector/uploads/legacy/articles/linkb_20weirdlogos/3.jpg" --channel "farley-only-servers" "Successfully performed task on `date +"%y-%m-%d"`"
 ```
-![Alt text](/example1.png?raw=true "Example 1")
+![Alt text](/resources/example1.png?raw=true "Example 1")
 
 # Bash-based example, showing URL parsing (see example.sh)
 ```
