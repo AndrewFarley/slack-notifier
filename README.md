@@ -12,11 +12,12 @@ A simple but robust CLI-based slack notifier written in PHP.  This library handl
   * Emoji
   * Icon
 
-Examples below are for Ubuntu
+# Configuration / Setup
+Note: apt-get examples below are for Ubuntu, adjust accordingly for your distribution
 
 Requires PHP5 CLI
 ```
-sudo apt-get install php5 php5-cli
+sudo apt-get install php5-cli
 ```
 
 Requires Console-CommandLine
@@ -29,6 +30,21 @@ Requires PHP5-Curl
 ```
 sudo apt-get install php5-curl
 ```
+
+Modify the file "send_notification_via_slack.sh" and insert your subdomain and API key token on line 22 and 23.  You'll need to create a Custom Integration, the type is "Incoming Webhook".  
+
+To do this... go to
+
+https://YOURCOMPANY.slack.com/apps/manage/custom-integrations
+
+After you create an incoming webhook, it will give you a "Webhook URL", take that url, and trim off the last part, that is your API token...
+
+Eg: if the webhook URL is...
+https://hooks.slack.com/services/ABC123123/DEF456456/XYZ789789789789
+Then your token would be XYZ789789789789
+
+Example:
+![Alt text](/resources/setup1.png?raw=true "Setup 1")
 
 Help Screen
 ```
