@@ -245,7 +245,7 @@ function moveCLIArgumentsIntoConfig() {
     
     // If we have an "error", alert the channel...
     if (strtolower($GLOBALS['PARSER_RESULTS']->options['severity']) == 'error') {
-        $GLOBALS['DEFAULTS']['body'] .= ' <@farley>';
+        $GLOBALS['DEFAULTS']['body'] .= ' <!channel>';
     }
 }
 
